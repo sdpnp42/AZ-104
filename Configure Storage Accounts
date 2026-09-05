@@ -1,0 +1,34 @@
+# Introduction
+Azure Storage is Microsoft's cloud storage solution
+Azure storage is  scalable and reliable solution that can handle high traffic and ensure data durability can restore data quickly if there's an outage.
+Azure Storage offers a massively scalable object store for data objects. It provides a file system service for the cloud, a messaging store for reliable messaging, and a NoSQL store.
+Azure Storage is also used by IaaS virtual machines, and PaaS cloud services.
+Azure Storage as supporting three categories of data: structured data, unstructured data, and virtual machine data.
+------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+
+           #Things to consider when using Azure Storage
+As you think about your configuration plan for Azure Storage, consider these prominent features.
+
+Consider durability and availability. Azure Storage is durable and highly available. Redundancy ensures your data is safe during transient hardware failures.
+You replicate data across datacenters or geographical regions for protection from local catastrophe or natural disaster. Replicated data remains highly available during an unexpected outage.
+
+Consider secure access. Azure Storage encrypts all data. Azure Storage provides you with fine-grained control over who has access to your data.
+
+Consider scalability. Azure Storage is designed to be massively scalable to meet the data storage and performance needs of modern applications.
+
+Consider manageability. Microsoft Azure handles hardware maintenance, updates, and critical issues for you.
+
+Consider data accessibility. Data in Azure Storage is accessible from anywhere in the world over HTTP or HTTPS. Microsoft provides SDKs for Azure Storage in various languages. 
+You can use .NET, Java, Node.js, Python, PHP, Ruby, Go, and the REST API. Azure Storage supports scripting in Azure PowerShell or the Azure CLI. The Azure portal and Azure Storage Explorer offer easy visual solutions for working with your data.
+
+Consider SFTP support. Blob Storage can use SFTP (SSH File Transfer Protocol), so you can keep using existing SFTP tools to move files directly to and from blobs.
+To use SFTP, enable hierarchical namespace (HNS). You can turn it on when you create the storage account (Advanced tab) or later under Settings → Configuration.
+
+Consider NFSv3 protocol support. Blob Storage can also be accessed using NFSv3, which lets Linux clients mount a container like an NFS share. NFSv3 can simplify migrations from Linux file workloads to Azure.
+
+Consider default authorization preferences. In the Azure portal, you can enable Default to Microsoft Entra authorization.
+This authentication makes role-based access control (RBAC) the default instead of shared access keys, which can improve security.
+
+
